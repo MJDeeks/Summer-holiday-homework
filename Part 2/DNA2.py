@@ -9,7 +9,7 @@ fragment_6 = open('/Users/18dbrennan-rasmussen/PycharmProjects/Summer-holiday-ho
 #read all fragments
 frag1 = fragment_1.read()
 frag2 = fragment_2.read()
-frag3
+frag3 = fragment_3.read()
 frag4
 frag5
 frag6
