@@ -1,3 +1,9 @@
+#open fragments and suspects files =open
+#read fragments and suspects files .read
+#extract the fragments for all suspects (tell the program how much code to read)[0:]
+#find and print the fragments for all the suspects .find() print()
+#run code
+
 #open all fragments
 fragment_1 = open('/Users/18dbrennan-rasmussen/PycharmProjects/Summer-holiday-homework/Part 2/fragment1.txt')
 fragment_2 = open('/Users/18dbrennan-rasmussen/PycharmProjects/Summer-holiday-homework/Part 2/fragment2.txt')
@@ -118,7 +124,8 @@ print(part36)
 
 print('------------------------')
 
-#suspect 4 extraction
+#suspect 4
+# extraction
 frag1 = sus4[0:]
 frag2 = sus4[0:]
 frag3 = sus4[0:]
@@ -126,10 +133,53 @@ frag4 = sus4[0:]
 frag5 = sus4[0:]
 frag6 = sus4[0:]
 
-#suspect 5 extraction
+#find fragment and print
+part41 = sus4.find(frag1)
+print(part41)
+
+part42 = sus4.find(frag2)
+print(part42)
+
+part43 = sus4.find(frag3)
+print(part43)
+
+part44 = sus4.find(frag4)
+print(part44)
+
+part45 = sus4.find(frag5)
+print(part45)
+
+part46 = sus4.find(frag6)
+print(part46)
+
+print('------------------------')
+
+#suspect 5
+# extraction
 frag1 = sus5[0:]
 frag2 = sus5[0:]
 frag3 = sus5[0:]
 frag4 = sus5[0:]
 frag5 = sus5[0:]
 frag6 = sus5[0:]
+
+#find fragment and print
+part51 = sus5.find(frag1)
+print(part51)
+
+part52 = sus5.find(frag2)
+print(part52)
+
+part53 = sus5.find(frag3)
+print(part53)
+
+part54 = sus5.find(frag4)
+print(part54)
+
+part55 = sus5.find(frag5)
+print(part55)
+
+part56 = sus5.find(frag6)
+print(part56)
+
+print('------------------------')
