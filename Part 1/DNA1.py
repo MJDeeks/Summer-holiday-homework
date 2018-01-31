@@ -1,3 +1,6 @@
+#open files – refer to Opening file.py in AFPwork
+#find fragment – refer to GC-sequence.py and sequenceLength.py in AFPwork
+
 #open fragment5.txt file
 fragment_5 = open('/Users/18dbrennan-rasmussen/PycharmProjects/Summer-holiday-homework/Part 1/fragment5.txt')
 fragment = fragment_5.read()
